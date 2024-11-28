@@ -28,15 +28,13 @@
             <Private>False</Private>
         </Reference>
         <Reference Include="Lumina">
-            <HintPath>$(DalamudLibPath)\Lumina.dll</HintPath>
-            <Private>False</Private>
+          <HintPath>..\..\..\..\..\AppData\Roaming\XIVLauncher\addon\Hooks\dev\Lumina.dll</HintPath>
         </Reference>
         <Reference Include="Lumina.Excel">
-            <HintPath>$(DalamudLibPath)\Lumina.Excel.dll</HintPath>
-            <Private>False</Private>
+          <HintPath>..\..\..\..\..\AppData\Roaming\XIVLauncher\addon\Hooks\dev\Lumina.Excel.dll</HintPath>
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="DalamudPackager" Version="2.1.13" />
+        <PackageReference Include="DalamudPackager" Version="11.0.0" />
     </ItemGroup>
 </Project>
